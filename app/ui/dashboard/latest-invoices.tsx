@@ -35,6 +35,7 @@ export default async function LatestInvoices() {
                 )}
               >
                 <div className="flex items-center">
+                  {/* {console.log("invoice.image_url", invoice.image_url)} */}
                   <Image
                     src={invoice.image_url}
                     alt={`${invoice.name}'s profile picture`}

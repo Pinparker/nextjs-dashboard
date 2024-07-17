@@ -28,7 +28,7 @@ export default function LoginForm() {
               className="mb-3 mt-5 block text-xs font-medium text-gray-900"
               htmlFor="email"
             >
-              Email
+              邮箱
             </label>
             <div className="relative">
               <input
@@ -36,7 +36,7 @@ export default function LoginForm() {
                 id="email"
                 type="email"
                 name="email"
-                defaultValue={"user@nextmail.com"}
+                defaultValue={"binhuang98@live.com"}
                 placeholder="Enter your email address"
                 required
               />
@@ -48,7 +48,7 @@ export default function LoginForm() {
               className="mb-3 mt-5 block text-xs font-medium text-gray-900"
               htmlFor="password"
             >
-              Password
+              密码
             </label>
             <div className="relative">
               <input
@@ -66,7 +66,7 @@ export default function LoginForm() {
           </div>
         </div>
         <Button className="mt-4 w-full" aria-disabled={isPending}>
-          Log in <ArrowRightIcon className="ml-auto h-5 w-5 text-gray-50" />
+          Log in to Start<ArrowRightIcon className="ml-auto h-5 w-5 text-gray-50" />
         </Button>
         <div className="flex h-8 items-end space-x-1">
           {/* Add form errors here */}

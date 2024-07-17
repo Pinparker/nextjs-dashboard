@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 export default function LoginPage() {
   return (
     <main className="flex min-h-screen flex-col p-6">
-      <div className="flex h-20 shrink-0 items-end rounded-lg bg-blue-500 p-4 md:h-52">
+      <div className="w-full md:w-1/2 flex h-20 shrink-0 items-end rounded-lg bg-gradient-to-l hover:bg-gradient-to-r from-sky-500 to-indigo-500 p-4 md:h-52">
         <AcmeLogo />
       </div>
 
@@ -40,6 +40,7 @@ export default function LoginPage() {
           />
         </div>
       </div>
+      <div className="h-20 shrink-0 bg-[url('/images/top.webp')] rounded-lg"></div>
     </main>
     // <main className="flex items-center justify-center md:h-screen">
     //   <div className="relative mx-auto flex w-full max-w-[400px] flex-col space-y-2.5 p-4 md:-mt-32">
