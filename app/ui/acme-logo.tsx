@@ -11,11 +11,12 @@ export default function AcmeLogo() {
       className={`${lusitana.className} flex flex-row items-center leading-none text-white`}
     >
       <Image
-        src={"/images/ox5qh0W.png"}
+        // src={"/images/ox5qh0W.png"}
+        src={"/images/logo.webp"}
         alt={`Logo Title picture`}
         className="mr-4 rounded-md md:block hidden -z-1"
-        width={323}
-        height={32}
+        width={180}
+        height={180}
       ></Image>
       {/* <GlobeAltIcon className="h-12 w-12 rotate-[15deg]" /> */}
       <WrenchScrewdriverIcon className="h-12 w-12 rotate-[15deg]" />
